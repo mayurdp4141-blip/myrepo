@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Diwali</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #18002b, #4b006e, #ff6f00);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #ffd700;
+            text-shadow: 0 0 20px #ff9800;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .diya {
+            font-size: 80px;
+            margin: 30px;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            background: #ffd700;
+            color: #4b006e;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: white;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px orange;
+            }
+
+            to {
+                text-shadow: 0 0 40px yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="diya">🪔</div>
+
+        <h1>✨ Happy Diwali ✨</h1>
+
+        <h2>May Your Life Be Filled With Happiness & Prosperity</h2>
+
+        <p>Wishing you and your family a very Happy and Prosperous Diwali!</p>
+
+        <button onclick="showMessage()">Click for Diwali Wishes</button>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("🪔 Happy Diwali! May your life shine bright like a Diya! ✨");
+        }
+    </script>
+
+</body>
+</html>
